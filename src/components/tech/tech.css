@@ -1,0 +1,30 @@
+.techLogo{
+    height: 70px;
+    width: 70px;
+    transition: all 300 ease-in;
+}
+.techOuter{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.techContainer{
+    padding: 1rem 3rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   align-items: center;
+   max-width: 780px;
+   justify-content: center;
+   
+   gap: 3rem;
+}
+.techLogo:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
