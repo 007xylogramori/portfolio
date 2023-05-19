@@ -14,6 +14,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setDone(true)
     // emailjs
     //   .sendForm(
     //     "service_rrvnzco",
