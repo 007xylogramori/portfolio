@@ -1,5 +1,5 @@
 import "./intro.css";
-
+import webdev from "./webdev.svg"
 const Intro = () => {
   return (
     <div className="i">
@@ -29,7 +29,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src="intropic.png" alt="" className="i-img" />
+        <img src={webdev} alt="" className="i-img" />
       </div>
     </div>
   );
