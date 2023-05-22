@@ -4,7 +4,7 @@ const PDF_URL="http://localhost:3000/RESUME_HIMANSHU.pdf"
 const Download = () => {
     const downloadFileAtUrl=(url)=>{
 fetch(url).then((response)=>response.blob()).then((blob)=>{
-    const blobURL=window.URL.createObjectURL(new Blob([blob]))
+    window.URL.createObjectURL(new Blob([blob]))
     const fileName=url.split("/").pop();
     const aTag=document.createElement("a");
     aTag.href=url;
