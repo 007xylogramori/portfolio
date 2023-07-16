@@ -1,6 +1,17 @@
 .i {
+  position: relative;
   display: flex;
   height: 100vh;
+}
+.i-down{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 10px;
+  left: 48%;
+}
+.i-down img{
+  width: 100%;
 }
 .logos{
   padding-top: 2rem;

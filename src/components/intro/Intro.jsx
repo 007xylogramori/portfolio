@@ -1,9 +1,19 @@
 import Download from "../../download/Download";
 import "./intro.css";
 import webdev from "./webdev.svg"
+
 const Intro = () => {
+  
+
+  const handleClick = () => {
+    window.scrollBy(0, 600);
+  };
+
   return (
     <div className="i">
+      <div  onClick={handleClick} className="i-down">
+        <img src="down.svg" alt="" />
+      </div>
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
