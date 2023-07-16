@@ -19,7 +19,11 @@ const About = () => {
           Hey there! I am 3rd year undergrad at IIITDM JABALPUR
         </p>
         <p className="a-desc">
-        I'm a  web developer with experience in designing new features from ideation to production, implementation of wireframes and design flows into high performance software applications. I take into consideration the user experience while writing reusable and efficient code. I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release.
+       Welcome to my portfolio! I'm Himanshu, a developer specializing in the MERN stack. Currently, I am working as a React.js intern at QuadB, honing my skills and gaining hands-on experience in building dynamic web applications.
+       <br/>
+
+With a strong focus on MongoDB, Express.js, React.js, and Node.js, I am passionate about creating innovative and user-friendly digital solutions. I thrive on solving complex challenges and delivering seamless experiences to end-users.<br/>
+Let's collaborate and turn your ideas into reality. Feel free to explore my portfolio and reach out to discuss potential projects!
         </p>
         
       </div>
